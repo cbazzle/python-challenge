@@ -21,7 +21,6 @@ with open(csvpath_budget, 'r') as csvfile:
     #Read header
     csv_header = next(csvreader)
     
-    print(f"CSV Header: {csv_header}")
     #Loop through rows
     for row in csvreader:
         #Month counter for each row

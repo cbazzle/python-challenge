@@ -4,6 +4,8 @@ csvpath_poll = os.path.join("..","PyPoll","Resources","election_data.csv")
 votes = 0
 candidates = []
 candidate_votes = {}
+
+#Open csv file
 with open(csvpath_poll, "r") as data_file:
     file_reader = csv.reader(data_file)
     header = next(file_reader)

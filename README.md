@@ -16,7 +16,7 @@ I created a Python script for analyzing the financial records of a fictional com
   
  - The greatest decrease in losses (date and amount) over the entire period
 
-![Financial Analysis](Images)
+![Financial Analysis](Images/financial_analysis.png)
 
  -  Finally, I exported the results to a text file.
 
@@ -36,7 +36,7 @@ I created a Python script to analyze the election results of a fictional town:
 
  -  The winner of the election based on popular vote.
 
-![Election Results](Images/election_results.csv)
+![Election Results](Images/election_results.png)
 
  - As with the financial analysis, I exported the results to a text file.
 
